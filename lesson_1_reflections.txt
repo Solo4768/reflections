@@ -1,0 +1,27 @@
+1.) How did viewing a diff between two versions of a file help yoy see the bug that was introduced?
+
+The diff or FC function helped by finding all lines that had differences between the two files. The lines with differences from the two files are placed so that they can be viewed at the same time and the differences can be easily spotted.
+
+2.) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having access to the entire history of a file allows the programmer to understand changes to a program throughout its' versions and to efficiently identify what if any bugs might be hiding in those changes to a program.
+
+3.) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Being able to manually create commits allows a programmer to make the best decision on the size of commits so they have contain only one logical change. This avoids making commits that are to small or too large and cluttering up the version history but it also leaves room for user error by either forgetting to commit or not doing so in a logical manner.
+
+4.) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Version control systems are made for different purposes. So Git allows saving mutliple files because this is sometimes necessary for version control in programming. For other version control tasks saving multiple files for a commit is not necessary.
+
+5.) How can you use the commands git log and git diff to view the history of files? 
+
+The git log function prints a list of all the commits and there id's for a given project. You can use the git diff command and the id's for two commits to compare the differences between those two commits.
+
+6.) How might using version control make you more confident to make changes that could break something?
+
+Version control could make a programmer more confident to make changes that would potentially break something because they know that they can always revert back to an older functioning version.This will allow them to compare with that previous version and diagnose and fix any bugs.
+
+7.) Now that you have your workspace setup, what do you want to try using Git for?
+
+I would like to use Git for version control on a programming project of medium complexity. Ideally, it will be a game for Android.
