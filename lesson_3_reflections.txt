@@ -9,3 +9,7 @@ If you are collaborating on a project other programmers may have pushed updates 
 3.) Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 Forking is similar to cloning but it only takes place remotely on GitHub. This is useful to avoid cloning remote repositories from another's GitHub account to your machine and then pushing them to your own GitHub account. Cloning can be done from GitHub to a local repository or between two local repositories. Branches split off from the master and allow users to commit changes to a separate parent commit and not affect the master branch when trying new features.  
+
+4.) What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Having the last known state of the remote stored locally allows you to compare the state of your local repository with anything that collaborators may have pushed to the remote repository. This is useful if you are going to be offline for awhile and not have access to the remote repository.
