@@ -13,3 +13,7 @@ Forking is similar to cloning but it only takes place remotely on GitHub. This i
 4.) What is the benefit of having a copy of the last known state of the remote stored locally?
 
 Having the last known state of the remote stored locally allows you to compare the state of your local repository with anything that collaborators may have pushed to the remote repository. This is useful if you are going to be offline for awhile and not have access to the remote repository.
+
+5.) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+You could collaborate without using Git or GitHub by saving multiple version of files when trying out new features or lines of code. You could "share" these files using e-mail or DropBox. This may save time upfront learning to use Git and GitHub, it also may save time because you won't have to think about when to commit or when to merge or push and pull to a remote repository. However, this would be more difficult because for each different save, without using Git, you may have to save multiple files or you may forget to save and "break" your code by introducing a bug. Without Git or GitHub you will have to fix your mistake without the use of git diff to compare to previous versions of your code. 
