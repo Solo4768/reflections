@@ -5,3 +5,7 @@ A remote repository may be preferred when working with other people on a project
 2.) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 If you are collaborating on a project other programmers may have pushed updates to the GitHub project repository. Depending on the stage you are at with your own feature/commit that you are working on, you may not be ready to introduce whatever changes have been pushed to GitHub with your local Git repository.
+
+3.) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forking is similar to cloning but it only takes place remotely on GitHub. This is useful to avoid cloning remote repositories from another's GitHub account to your machine and then pushing them to your own GitHub account. Cloning can be done from GitHub to a local repository or between two local repositories. Branches split off from the master and allow users to commit changes to a separate parent commit and not affect the master branch when trying new features.  
