@@ -5,3 +5,23 @@ When you initialize a repository Git creates an empty Git repository in the curr
 2.) How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area acts as an intermediary between the working directory and the repository. You are able to place files that you are ready to commit there while keeping files you are not yet ready to commit in the working directory. 
+
+3.) How can you use the staging area to make sure you have one commit per logical change?
+
+You can only add files to the staging are that have changes made to them when you are ready to commit. 
+
+4.) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be helpful when you have part of your code working and you want to try new ideas and features without "breaking" your current code. Multiple branches could also be used if you want to try different ways of implementing a feature. Branches help because they allow you to try these new ideas while still being able to go back to your working code on the master branch.
+
+5.) How do the diagrams help you visualize the branch structure?
+
+Diagrams can help you visaulize when the different branchs split from the master branch, showing you which commits from the master branch they contain and what new commits they have which are not in the master branch.
+
+6.) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When to branches are merged together the code is also merged so that all the code changes from each branch that happened after they originally split are brought together in a single commit. The diagram helps to show that the commit created when the two branches are merged has the two merged commits as parents.
+
+7.) What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+
+Git's automatic merging system makes it easy to merge branches and for the most part the merging process is able to understand what code needs to go or stay. However, some conflicts require the user to make modifications to the code to allow merges to take place. Sometimes these conflict may seem obvious to the programmer.
